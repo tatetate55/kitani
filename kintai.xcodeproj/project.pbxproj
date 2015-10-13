@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D45AAFD71BCC883800B2987D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D45AAFD61BCC883800B2987D /* main.m */; };
+		D45AAFDA1BCC883800B2987D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D45AAFD91BCC883800B2987D /* AppDelegate.m */; };
+		D45AAFDD1BCC883800B2987D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D45AAFDC1BCC883800B2987D /* ViewController.m */; };
+		D45AAFE01BCC883800B2987D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45AAFDE1BCC883800B2987D /* Main.storyboard */; };
+		D45AAFE21BCC883800B2987D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D45AAFE11BCC883800B2987D /* Assets.xcassets */; };
+		D45AAFE51BCC883800B2987D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45AAFE31BCC883800B2987D /* LaunchScreen.storyboard */; };
+		D45AAFF01BCC883800B2987D /* kintaiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D45AAFEF1BCC883800B2987D /* kintaiTests.m */; };
+		D45AAFFB1BCC883800B2987D /* kintaiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D45AAFFA1BCC883800B2987D /* kintaiUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D45AAFEC1BCC883800B2987D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D45AAFCA1BCC883800B2987D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D45AAFD11BCC883800B2987D;
+			remoteInfo = kintai;
+		};
+		D45AAFF71BCC883800B2987D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D45AAFCA1BCC883800B2987D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D45AAFD11BCC883800B2987D;
+			remoteInfo = kintai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D45AAFD21BCC883800B2987D /* kintai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kintai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45AAFD61BCC883800B2987D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D45AAFD81BCC883800B2987D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D45AAFD91BCC883800B2987D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D45AAFDB1BCC883800B2987D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D45AAFDC1BCC883800B2987D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D45AAFDF1BCC883800B2987D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D45AAFE11BCC883800B2987D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D45AAFE41BCC883800B2987D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D45AAFE61BCC883800B2987D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45AAFEB1BCC883800B2987D /* kintaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kintaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45AAFEF1BCC883800B2987D /* kintaiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kintaiTests.m; sourceTree = "<group>"; };
+		D45AAFF11BCC883800B2987D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45AAFF61BCC883800B2987D /* kintaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kintaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45AAFFA1BCC883800B2987D /* kintaiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kintaiUITests.m; sourceTree = "<group>"; };
+		D45AAFFC1BCC883800B2987D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D45AAFCF1BCC883800B2987D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45AAFE81BCC883800B2987D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45AAFF31BCC883800B2987D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D45AAFC91BCC883800B2987D = {
+			isa = PBXGroup;
+			children = (
+				D45AAFD41BCC883800B2987D /* kintai */,
+				D45AAFEE1BCC883800B2987D /* kintaiTests */,
+				D45AAFF91BCC883800B2987D /* kintaiUITests */,
+				D45AAFD31BCC883800B2987D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D45AAFD31BCC883800B2987D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D45AAFD21BCC883800B2987D /* kintai.app */,
+				D45AAFEB1BCC883800B2987D /* kintaiTests.xctest */,
+				D45AAFF61BCC883800B2987D /* kintaiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D45AAFD41BCC883800B2987D /* kintai */ = {
+			isa = PBXGroup;
+			children = (
+				D45AAFD81BCC883800B2987D /* AppDelegate.h */,
+				D45AAFD91BCC883800B2987D /* AppDelegate.m */,
+				D45AAFDB1BCC883800B2987D /* ViewController.h */,
+				D45AAFDC1BCC883800B2987D /* ViewController.m */,
+				D45AAFDE1BCC883800B2987D /* Main.storyboard */,
+				D45AAFE11BCC883800B2987D /* Assets.xcassets */,
+				D45AAFE31BCC883800B2987D /* LaunchScreen.storyboard */,
+				D45AAFE61BCC883800B2987D /* Info.plist */,
+				D45AAFD51BCC883800B2987D /* Supporting Files */,
+			);
+			path = kintai;
+			sourceTree = "<group>";
+		};
+		D45AAFD51BCC883800B2987D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D45AAFD61BCC883800B2987D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D45AAFEE1BCC883800B2987D /* kintaiTests */ = {
+			isa = PBXGroup;
+			children = (
+				D45AAFEF1BCC883800B2987D /* kintaiTests.m */,
+				D45AAFF11BCC883800B2987D /* Info.plist */,
+			);
+			path = kintaiTests;
+			sourceTree = "<group>";
+		};
+		D45AAFF91BCC883800B2987D /* kintaiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D45AAFFA1BCC883800B2987D /* kintaiUITests.m */,
+				D45AAFFC1BCC883800B2987D /* Info.plist */,
+			);
+			path = kintaiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D45AAFD11BCC883800B2987D /* kintai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45AAFFF1BCC883800B2987D /* Build configuration list for PBXNativeTarget "kintai" */;
+			buildPhases = (
+				D45AAFCE1BCC883800B2987D /* Sources */,
+				D45AAFCF1BCC883800B2987D /* Frameworks */,
+				D45AAFD01BCC883800B2987D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kintai;
+			productName = kintai;
+			productReference = D45AAFD21BCC883800B2987D /* kintai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D45AAFEA1BCC883800B2987D /* kintaiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45AB0021BCC883800B2987D /* Build configuration list for PBXNativeTarget "kintaiTests" */;
+			buildPhases = (
+				D45AAFE71BCC883800B2987D /* Sources */,
+				D45AAFE81BCC883800B2987D /* Frameworks */,
+				D45AAFE91BCC883800B2987D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D45AAFED1BCC883800B2987D /* PBXTargetDependency */,
+			);
+			name = kintaiTests;
+			productName = kintaiTests;
+			productReference = D45AAFEB1BCC883800B2987D /* kintaiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D45AAFF51BCC883800B2987D /* kintaiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45AB0051BCC883800B2987D /* Build configuration list for PBXNativeTarget "kintaiUITests" */;
+			buildPhases = (
+				D45AAFF21BCC883800B2987D /* Sources */,
+				D45AAFF31BCC883800B2987D /* Frameworks */,
+				D45AAFF41BCC883800B2987D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D45AAFF81BCC883800B2987D /* PBXTargetDependency */,
+			);
+			name = kintaiUITests;
+			productName = kintaiUITests;
+			productReference = D45AAFF61BCC883800B2987D /* kintaiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D45AAFCA1BCC883800B2987D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "鎌倉　和弘";
+				TargetAttributes = {
+					D45AAFD11BCC883800B2987D = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					D45AAFEA1BCC883800B2987D = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = D45AAFD11BCC883800B2987D;
+					};
+					D45AAFF51BCC883800B2987D = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = D45AAFD11BCC883800B2987D;
+					};
+				};
+			};
+			buildConfigurationList = D45AAFCD1BCC883800B2987D /* Build configuration list for PBXProject "kintai" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D45AAFC91BCC883800B2987D;
+			productRefGroup = D45AAFD31BCC883800B2987D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D45AAFD11BCC883800B2987D /* kintai */,
+				D45AAFEA1BCC883800B2987D /* kintaiTests */,
+				D45AAFF51BCC883800B2987D /* kintaiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D45AAFD01BCC883800B2987D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45AAFE51BCC883800B2987D /* LaunchScreen.storyboard in Resources */,
+				D45AAFE21BCC883800B2987D /* Assets.xcassets in Resources */,
+				D45AAFE01BCC883800B2987D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45AAFE91BCC883800B2987D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45AAFF41BCC883800B2987D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D45AAFCE1BCC883800B2987D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45AAFDD1BCC883800B2987D /* ViewController.m in Sources */,
+				D45AAFDA1BCC883800B2987D /* AppDelegate.m in Sources */,
+				D45AAFD71BCC883800B2987D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45AAFE71BCC883800B2987D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45AAFF01BCC883800B2987D /* kintaiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45AAFF21BCC883800B2987D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45AAFFB1BCC883800B2987D /* kintaiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D45AAFED1BCC883800B2987D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D45AAFD11BCC883800B2987D /* kintai */;
+			targetProxy = D45AAFEC1BCC883800B2987D /* PBXContainerItemProxy */;
+		};
+		D45AAFF81BCC883800B2987D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D45AAFD11BCC883800B2987D /* kintai */;
+			targetProxy = D45AAFF71BCC883800B2987D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D45AAFDE1BCC883800B2987D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D45AAFDF1BCC883800B2987D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D45AAFE31BCC883800B2987D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D45AAFE41BCC883800B2987D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D45AAFFD1BCC883800B2987D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D45AAFFE1BCC883800B2987D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D45AB0001BCC883800B2987D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kintai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tate.kintai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D45AB0011BCC883800B2987D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kintai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tate.kintai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D45AB0031BCC883800B2987D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kintaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tate.kintaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kintai.app/kintai";
+			};
+			name = Debug;
+		};
+		D45AB0041BCC883800B2987D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kintaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tate.kintaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kintai.app/kintai";
+			};
+			name = Release;
+		};
+		D45AB0061BCC883800B2987D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kintaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tate.kintaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kintai;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D45AB0071BCC883800B2987D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kintaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tate.kintaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kintai;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D45AAFCD1BCC883800B2987D /* Build configuration list for PBXProject "kintai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45AAFFD1BCC883800B2987D /* Debug */,
+				D45AAFFE1BCC883800B2987D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D45AAFFF1BCC883800B2987D /* Build configuration list for PBXNativeTarget "kintai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45AB0001BCC883800B2987D /* Debug */,
+				D45AB0011BCC883800B2987D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D45AB0021BCC883800B2987D /* Build configuration list for PBXNativeTarget "kintaiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45AB0031BCC883800B2987D /* Debug */,
+				D45AB0041BCC883800B2987D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D45AB0051BCC883800B2987D /* Build configuration list for PBXNativeTarget "kintaiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45AB0061BCC883800B2987D /* Debug */,
+				D45AB0071BCC883800B2987D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D45AAFCA1BCC883800B2987D /* Project object */;
+}
