@@ -15,6 +15,7 @@
 		D45AAFE51BCC883800B2987D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45AAFE31BCC883800B2987D /* LaunchScreen.storyboard */; };
 		D45AAFF01BCC883800B2987D /* kintaiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D45AAFEF1BCC883800B2987D /* kintaiTests.m */; };
 		D45AAFFB1BCC883800B2987D /* kintaiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D45AAFFA1BCC883800B2987D /* kintaiUITests.m */; };
+		D45AB00F1BCF847B00B2987D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45AB00E1BCF847B00B2987D /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D45AAFF61BCC883800B2987D /* kintaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kintaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D45AAFFA1BCC883800B2987D /* kintaiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kintaiUITests.m; sourceTree = "<group>"; };
 		D45AAFFC1BCC883800B2987D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45AB00E1BCF847B00B2987D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D45AB00F1BCF847B00B2987D /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		D45AAFC91BCC883800B2987D = {
 			isa = PBXGroup;
 			children = (
+				D45AB00E1BCF847B00B2987D /* MessageUI.framework */,
 				D45AAFD41BCC883800B2987D /* kintai */,
 				D45AAFEE1BCC883800B2987D /* kintaiTests */,
 				D45AAFF91BCC883800B2987D /* kintaiUITests */,
@@ -417,6 +421,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tate.kintai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -428,6 +433,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tate.kintai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -498,6 +504,7 @@
 				D45AB0011BCC883800B2987D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D45AB0021BCC883800B2987D /* Build configuration list for PBXNativeTarget "kintaiTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				D45AB0041BCC883800B2987D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D45AB0051BCC883800B2987D /* Build configuration list for PBXNativeTarget "kintaiUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				D45AB0071BCC883800B2987D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

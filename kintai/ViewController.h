@@ -7,8 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MessageUI/MFMailComposeViewController.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<MFMailComposeViewControllerDelegate,UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet UITextField *toAddress;
+@property (weak, nonatomic) IBOutlet UITextField *ccAddress;
+@property (weak, nonatomic) IBOutlet UITextView *mainText;
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+@property (weak, nonatomic) IBOutlet UITextField *nameText;
+@property (weak, nonatomic) IBOutlet UITextField *bossText;
+
+- (IBAction)viewButton:(UIButton *)sender;
+- (IBAction)sendButton:(id)sender;
 
 
 @end
